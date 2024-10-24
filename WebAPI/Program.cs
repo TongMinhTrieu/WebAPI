@@ -17,6 +17,7 @@ using Microsoft.AspNetCore.Mvc.Versioning;
 using System.Text.Json;
 using Microsoft.AspNetCore.Http.Timeouts;
 using Newtonsoft.Json;
+using WebAPI.Middleware;
 
 
 ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
@@ -207,6 +208,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseMiddleware<LoggingMiddleware>();
+app.UseMiddleware<WafMiddleware>();
 
 app.MapControllers();
 app.MapGet("/", () => Results.Redirect("/swagger/index.html"));
