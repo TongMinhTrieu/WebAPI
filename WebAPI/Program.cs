@@ -15,6 +15,8 @@ using AspNetCoreRateLimit;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using System.Text.Json;
+using Microsoft.AspNetCore.Http.Timeouts;
+using Newtonsoft.Json;
 
 
 ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
@@ -153,8 +155,27 @@ builder.Services.AddControllers()
     })
     .AddXmlSerializerFormatters(); // Thêm hỗ trợ XML;
 
-builder.Services.AddHttpContextAccessor();
+// Cấu hình HttpClient với timeout cho tất cả API
+builder.Services.AddRequestTimeouts(options =>
+{
+    options.AddPolicy("customdelegatepolicy", new RequestTimeoutPolicy
+    {
+        Timeout = TimeSpan.FromSeconds(3),
+        TimeoutStatusCode = 504,
+        WriteTimeoutResponse = async (HttpContext context) => {
+            context.Response.ContentType = "application/json";
+            var errorResponse = new
+            {
+                error = "Request time out from custome delegate policy",
+                status = 504
+            };
+            var jsonResponse = JsonConvert.SerializeObject(errorResponse);
+            await context.Response.WriteAsync(jsonResponse);
+        }
+    });
+});
 
+builder.Services.AddHttpContextAccessor();
 
 
 var app = builder.Build();
@@ -177,6 +198,8 @@ app.UseMiddleware<IPFilterMiddleware>();
 
 app.UseSerilogRequestLogging();
 app.UseHttpsRedirection();
+
+app.UseRequestTimeouts();
 
 app.UseIpRateLimiting();
 
