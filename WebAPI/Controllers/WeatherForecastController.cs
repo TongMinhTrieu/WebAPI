@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
@@ -53,7 +53,7 @@ namespace WebAPI.Controllers
 
             if (role == "Admin")
             {
-                return Ok("Welcome Admin!");
+                return Ok("Welcome Admin! Đây là CheckBranch");
             }
             else if (role == "User")
             {
