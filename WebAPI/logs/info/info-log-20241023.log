@@ -1,0 +1,623 @@
+2024-10-23 09:54:20.501 +07:00  INF  Fetching data from database.
+2024-10-23 09:54:21.338 +07:00  INF  API: /api/Movies, Status Code: 200, Response Time: 1870 ms
+2024-10-23 09:54:38.436 +07:00  INF  Returning data from cache.
+2024-10-23 09:54:38.437 +07:00  INF  API: /api/Movies, Status Code: 200, Response Time: 2 ms
+2024-10-23 10:23:35.632 +07:00  INF  Request from IP: ::1
+2024-10-23 10:23:35.663 +07:00  INF  API: /api/Movies, Status Code: 401, Response Time: 15 ms
+2024-10-23 10:25:08.659 +07:00  INF  Request from IP: ::1
+2024-10-23 10:25:08.688 +07:00  INF  API: /api/Movies, Status Code: 401, Response Time: 14 ms
+2024-10-23 10:25:32.226 +07:00  INF  Request from IP: ::1
+2024-10-23 10:25:52.455 +07:00  WRN  Blocked IP: ::1
+2024-10-23 10:26:37.648 +07:00  INF  Request from IP: ::1
+2024-10-23 10:26:44.203 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 10:27:14.545 +07:00  INF  Request from IP: ::1
+2024-10-23 10:27:20.733 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 10:30:56.169 +07:00  INF  Request from IP: ::1
+2024-10-23 10:30:56.186 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 10:31:29.441 +07:00  INF  Request from IP: ::1
+2024-10-23 10:31:29.458 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 10:33:56.418 +07:00  INF  Request from IP: ::1
+2024-10-23 10:33:56.436 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 10:34:36.878 +07:00  INF  Request from IP: ::1
+2024-10-23 10:34:36.898 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 10:36:45.375 +07:00  INF  Request from IP: ::1
+2024-10-23 10:36:45.393 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 10:38:13.931 +07:00  INF  Request from IP: ::1
+2024-10-23 10:38:13.948 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 10:39:41.470 +07:00  INF  Request from IP: ::1
+2024-10-23 10:39:52.046 +07:00  INF  API: /api/Movies, Status Code: 401, Response Time: 10558 ms
+2024-10-23 10:40:08.523 +07:00  INF  Request from IP: ::1
+2024-10-23 10:40:09.728 +07:00  INF  User minhtrieu, 123456 logged in successfully.
+2024-10-23 10:40:09.735 +07:00  INF  API: /api/login/login, Status Code: 200, Response Time: 1211 ms
+2024-10-23 10:43:07.318 +07:00  INF  Request from IP: ::1
+2024-10-23 10:43:07.364 +07:00  INF  API: /api/Movies, Status Code: 401, Response Time: 22 ms
+2024-10-23 10:43:26.507 +07:00  INF  Request from IP: ::1
+2024-10-23 10:43:26.521 +07:00  WRN  Blocked IP: ::1
+2024-10-23 10:43:41.970 +07:00  INF  Request from IP: ::1
+2024-10-23 10:43:41.970 +07:00  WRN  Blocked IP: ::1
+2024-10-23 10:43:51.601 +07:00  INF  Request from IP: ::1
+2024-10-23 10:43:51.601 +07:00  WRN  Blocked IP: ::1
+2024-10-23 10:44:19.573 +07:00  INF  Request from IP: ::1
+2024-10-23 10:44:19.602 +07:00  INF  API: /api/Movies, Status Code: 401, Response Time: 13 ms
+2024-10-23 10:44:31.049 +07:00  INF  Request from IP: ::1
+2024-10-23 10:44:31.905 +07:00  INF  User minhtrieu, 123456 logged in successfully.
+2024-10-23 10:44:31.909 +07:00  INF  API: /api/login/login, Status Code: 200, Response Time: 858 ms
+2024-10-23 10:44:41.124 +07:00  INF  Request from IP: ::1
+2024-10-23 10:44:41.163 +07:00  INF  Fetching data from database.
+2024-10-23 10:44:41.222 +07:00  INF  API: /api/Movies, Status Code: 200, Response Time: 97 ms
+2024-10-23 10:47:41.779 +07:00  INF  Request from IP: ::1
+2024-10-23 10:47:41.835 +07:00  INF  User minhtrieu, 123456 logged in successfully.
+2024-10-23 10:47:41.835 +07:00  INF  API: /api/login/login, Status Code: 200, Response Time: 55 ms
+2024-10-23 10:47:44.613 +07:00  INF  Request from IP: ::1
+2024-10-23 10:47:44.617 +07:00  INF  User minhtrieu, 123456 logged in successfully.
+2024-10-23 10:47:44.618 +07:00  INF  API: /api/login/login, Status Code: 200, Response Time: 4 ms
+2024-10-23 10:47:45.532 +07:00  INF  Request from IP: ::1
+2024-10-23 10:47:45.535 +07:00  INF  User minhtrieu, 123456 logged in successfully.
+2024-10-23 10:47:45.535 +07:00  INF  API: /api/login/login, Status Code: 200, Response Time: 3 ms
+2024-10-23 10:50:31.522 +07:00  INF  Request from IP: ::1
+2024-10-23 10:50:31.541 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 10:50:45.675 +07:00  INF  Request from IP: ::1
+2024-10-23 10:50:45.694 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 10:51:08.383 +07:00  INF  Request from IP: ::1
+2024-10-23 10:51:08.384 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 10:51:18.679 +07:00  INF  Request from IP: ::1
+2024-10-23 10:51:20.105 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 10:54:55.359 +07:00  INF  Request from IP: ::1
+2024-10-23 10:54:55.375 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 10:55:36.073 +07:00  INF  Request from IP: ::1
+2024-10-23 10:55:36.090 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 10:57:32.052 +07:00  INF  Request from IP: ::1
+2024-10-23 10:57:32.068 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 11:08:14.642 +07:00  INF  Request from IP: ::1
+2024-10-23 11:08:14.660 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 11:09:44.282 +07:00  INF  Request from IP: ::1
+2024-10-23 11:09:44.295 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 11:11:49.297 +07:00  INF  Request from IP: ::1
+2024-10-23 11:11:49.319 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 11:26:40.161 +07:00  INF  Request from IP: ::1
+2024-10-23 11:26:40.177 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 11:27:53.634 +07:00  INF  Request from IP: ::1
+2024-10-23 11:27:53.650 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 13:05:42.726 +07:00  INF  Request from IP: ::1
+2024-10-23 13:05:42.742 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 13:07:47.788 +07:00  INF  Request from IP: ::1
+2024-10-23 13:07:54.892 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 13:10:02.911 +07:00  INF  Request from IP: ::1
+2024-10-23 13:10:02.925 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 13:10:03.181 +07:00  INF  Fetching data from database.
+2024-10-23 13:12:56.682 +07:00  INF  Request from IP: ::1
+2024-10-23 13:12:56.697 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 13:12:56.788 +07:00  INF  Fetching data from database.
+2024-10-23 13:12:57.195 +07:00  INF  API: /api/Movies, Status Code: 200, Response Time: 456 ms
+2024-10-23 13:13:03.802 +07:00  INF  Request from IP: ::1
+2024-10-23 13:13:03.802 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 13:13:03.922 +07:00  INF  API: /api/Movies/1, Status Code: 200, Response Time: 117 ms
+2024-10-23 13:13:23.204 +07:00  INF  Request from IP: ::1
+2024-10-23 13:13:23.205 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 13:13:23.210 +07:00  INF  Returning data from cache.
+2024-10-23 13:13:23.211 +07:00  INF  API: /api/Movies, Status Code: 200, Response Time: 2 ms
+2024-10-23 13:13:39.010 +07:00  INF  Request from IP: ::1
+2024-10-23 13:13:51.114 +07:00  INF  Request from IP: ::1
+2024-10-23 13:13:51.962 +07:00  INF  User minhtrieu, 123456 logged in successfully.
+2024-10-23 13:13:51.966 +07:00  INF  API: /api/login/login, Status Code: 200, Response Time: 849 ms
+2024-10-23 13:14:01.477 +07:00  INF  Request from IP: ::1
+2024-10-23 13:14:01.516 +07:00  INF  Fetching data from database.
+2024-10-23 13:14:01.575 +07:00  INF  API: /api/Movies, Status Code: 200, Response Time: 65 ms
+2024-10-23 14:37:08.466 +07:00  INF  Request from IP: ::1
+2024-10-23 14:37:16.705 +07:00  INF  Request from IP: ::1
+2024-10-23 14:37:16.717 +07:00  INF  API: /api/test/check-role, Status Code: 401, Response Time: 9 ms
+2024-10-23 14:37:39.079 +07:00  INF  Request from IP: ::1
+2024-10-23 14:37:39.090 +07:00  INF  API: /api/test, Status Code: 200, Response Time: 10 ms
+2024-10-23 14:37:52.439 +07:00  INF  Request from IP: ::1
+2024-10-23 14:37:52.931 +07:00  ERR  Failed executing DbCommand (15ms) [Parameters=[@__model_Username_0='?' (Size = 4000), @__model_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[DateRegister], [u].[EmailAddress], [u].[Password], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__model_Username_0 AND [u].[Password] = @__model_Password_1
+2024-10-23 14:37:52.950 +07:00  ERR  An exception occurred while iterating over the results of a query for context type 'WebAPI.Data.MovieContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Role'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:7d3b7634-60df-41e2-9754-fc15ab5ee74c
+Error Number:207,State:1,Class:16Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Role'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:7d3b7634-60df-41e2-9754-fc15ab5ee74c
+Error Number:207,State:1,Class:16
+
+2024-10-23 14:37:52.952 +07:00  ERR  An unhandled exception has occurred while executing the request.Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Role'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method11(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at WebAPI.Controllers.AuthController.Login(User model) in D:\Code\WebAPI\WebAPI\Controllers\AuthController.cs:line 61
+   at lambda_method6(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at LoggingMiddleware.InvokeAsync(HttpContext context) in D:\Code\WebAPI\WebAPI\Middleware\LoggingMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at IPFilterMiddleware.InvokeAsync(HttpContext context) in D:\Code\WebAPI\WebAPI\Middleware\IPFilterMiddleware.cs:line 54
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:7d3b7634-60df-41e2-9754-fc15ab5ee74c
+Error Number:207,State:1,Class:16
+
+2024-10-23 14:38:07.693 +07:00  INF  Request from IP: ::1
+2024-10-23 14:38:07.710 +07:00  ERR  Failed executing DbCommand (3ms) [Parameters=[@__model_Username_0='?' (Size = 4000), @__model_Password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[DateRegister], [u].[EmailAddress], [u].[Password], [u].[Role], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__model_Username_0 AND [u].[Password] = @__model_Password_1
+2024-10-23 14:38:07.712 +07:00  ERR  An exception occurred while iterating over the results of a query for context type 'WebAPI.Data.MovieContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Role'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:7d3b7634-60df-41e2-9754-fc15ab5ee74c
+Error Number:207,State:1,Class:16Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Role'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:7d3b7634-60df-41e2-9754-fc15ab5ee74c
+Error Number:207,State:1,Class:16
+
+2024-10-23 14:38:07.713 +07:00  ERR  An unhandled exception has occurred while executing the request.Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'Role'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method11(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at WebAPI.Controllers.AuthController.Login(User model) in D:\Code\WebAPI\WebAPI\Controllers\AuthController.cs:line 61
+   at lambda_method6(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at LoggingMiddleware.InvokeAsync(HttpContext context) in D:\Code\WebAPI\WebAPI\Middleware\LoggingMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at IPFilterMiddleware.InvokeAsync(HttpContext context) in D:\Code\WebAPI\WebAPI\Middleware\IPFilterMiddleware.cs:line 54
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:7d3b7634-60df-41e2-9754-fc15ab5ee74c
+Error Number:207,State:1,Class:16
+
+2024-10-23 14:39:52.416 +07:00  INF  Request from IP: ::1
+2024-10-23 14:39:52.957 +07:00  INF  User minhtrieu, 123456 logged in successfully.
+2024-10-23 14:39:52.960 +07:00  INF  API: /api/login/login, Status Code: 200, Response Time: 517 ms
+2024-10-23 14:40:01.512 +07:00  INF  Request from IP: ::1
+2024-10-23 14:40:01.527 +07:00  INF  User minhtrieu, 123456 logged in successfully.
+2024-10-23 14:40:01.527 +07:00  INF  API: /api/login/login, Status Code: 200, Response Time: 14 ms
+2024-10-23 14:40:03.239 +07:00  INF  Request from IP: ::1
+2024-10-23 14:40:03.279 +07:00  INF  User minhtrieu, 123456 logged in successfully.
+2024-10-23 14:40:03.279 +07:00  INF  API: /api/login/login, Status Code: 200, Response Time: 38 ms
+2024-10-23 14:40:28.601 +07:00  INF  Request from IP: ::1
+2024-10-23 14:40:28.623 +07:00  INF  API: /api/test/check-role, Status Code: 401, Response Time: 1 ms
+2024-10-23 14:40:38.083 +07:00  INF  Request from IP: ::1
+2024-10-23 14:45:47.348 +07:00  INF  Request from IP: ::1
+2024-10-23 14:46:06.086 +07:00  INF  User minhtrieu, 123456 logged in successfully.
+2024-10-23 14:46:06.091 +07:00  INF  API: /api/login/login, Status Code: 200, Response Time: 18680 ms
+2024-10-23 14:46:18.220 +07:00  INF  Request from IP: ::1
+2024-10-23 14:48:03.233 +07:00  INF  Request from IP: ::1
+2024-10-23 14:48:06.399 +07:00  INF  User minhtrieu, 123456 logged in successfully.
+2024-10-23 14:48:06.406 +07:00  INF  API: /api/login/login, Status Code: 200, Response Time: 3101 ms
+2024-10-23 14:48:17.445 +07:00  INF  Request from IP: ::1
+2024-10-23 14:48:17.513 +07:00  INF  Fetching data from database.
+2024-10-23 14:48:17.589 +07:00  INF  API: /api/Movies, Status Code: 200, Response Time: 86 ms
+2024-10-23 14:48:26.468 +07:00  INF  Request from IP: ::1
+2024-10-23 14:48:26.476 +07:00  INF  API: /api/test/admin-only, Status Code: 200, Response Time: 3 ms
+2024-10-23 14:48:29.989 +07:00  INF  Request from IP: ::1
+2024-10-23 14:48:35.190 +07:00  INF  Request from IP: ::1
+2024-10-23 14:48:35.192 +07:00  INF  API: /api/test/check-role, Status Code: 200, Response Time: 2 ms
+2024-10-23 14:52:09.282 +07:00  INF  Request from IP: ::1
+2024-10-23 14:52:09.298 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 14:52:09.391 +07:00  INF  Fetching data from database.
+2024-10-23 14:52:36.097 +07:00  INF  Request from IP: ::1
+2024-10-23 14:52:36.115 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 14:52:50.133 +07:00  INF  Fetching data from database.
+2024-10-23 14:53:07.312 +07:00  ERR  An error occurred using the connection to database 'MovieContext' on server 'TONGDAI'.
+2024-10-23 14:53:07.329 +07:00  ERR  An exception occurred while iterating over the results of a query for context type 'WebAPI.Data.MovieContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): The system cannot find the file specified.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): The system cannot find the file specified.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+2024-10-23 14:53:07.445 +07:00  ERR  An unhandled exception has occurred while executing the request.Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): The system cannot find the file specified.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at WebAPI.Controllers.MoviesController.GetMovies() in D:\Code\WebAPI\WebAPI\Controllers\MoviesController.cs:line 37
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at LoggingMiddleware.InvokeAsync(HttpContext context) in D:\Code\WebAPI\WebAPI\Middleware\LoggingMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at IPFilterMiddleware.InvokeAsync(HttpContext context) in D:\Code\WebAPI\WebAPI\Middleware\IPFilterMiddleware.cs:line 54
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+2024-10-23 14:54:33.813 +07:00  INF  Request from IP: ::1
+2024-10-23 14:54:33.837 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 14:54:50.681 +07:00  INF  Fetching data from database.
+2024-10-23 14:56:21.474 +07:00  INF  Request from IP: ::1
+2024-10-23 14:56:21.491 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 14:56:36.556 +07:00  INF  Fetching data from database.
+2024-10-23 14:56:55.960 +07:00  INF  Request from IP: ::1
+2024-10-23 14:56:55.976 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 14:57:02.301 +07:00  INF  Fetching data from database.
+2024-10-23 14:57:23.234 +07:00  ERR  An error occurred using the connection to database 'MovieContext' on server 'TONGDAI'.
+2024-10-23 14:57:23.259 +07:00  ERR  An exception occurred while iterating over the results of a query for context type 'WebAPI.Data.MovieContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): The system cannot find the file specified.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): The system cannot find the file specified.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+2024-10-23 14:57:23.361 +07:00  ERR  An unhandled exception has occurred while executing the request.Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (2): The system cannot find the file specified.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at WebAPI.Controllers.MoviesController.GetMovies() in D:\Code\WebAPI\WebAPI\Controllers\MoviesController.cs:line 37
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at LoggingMiddleware.InvokeAsync(HttpContext context) in D:\Code\WebAPI\WebAPI\Middleware\LoggingMiddleware.cs:line 22
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at IPFilterMiddleware.InvokeAsync(HttpContext context) in D:\Code\WebAPI\WebAPI\Middleware\IPFilterMiddleware.cs:line 54
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:2,State:0,Class:20
+
+2024-10-23 15:01:10.792 +07:00  INF  Request from IP: ::1
+2024-10-23 15:01:10.813 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 15:01:15.411 +07:00  INF  Fetching data from database.
+2024-10-23 15:01:16.335 +07:00  INF  API: /api/Movies, Status Code: 200, Response Time: 2658 ms
+2024-10-23 15:01:36.522 +07:00  INF  Request from IP: ::1
+2024-10-23 15:01:36.537 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 15:01:36.632 +07:00  INF  Fetching data from database.
+2024-10-23 15:01:37.068 +07:00  INF  API: /api/Movies, Status Code: 200, Response Time: 489 ms
+2024-10-23 15:01:41.367 +07:00  INF  Request from IP: ::1
+2024-10-23 15:01:41.367 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 15:01:41.536 +07:00  INF  API: /api/Movies/1, Status Code: 200, Response Time: 165 ms
+2024-10-23 15:02:23.081 +07:00  INF  Request from IP: ::1
+2024-10-23 15:02:36.623 +07:00  INF  Request from IP: ::1
+2024-10-23 15:02:37.495 +07:00  INF  User minhtrieu, 123456 logged in successfully.
+2024-10-23 15:02:37.499 +07:00  INF  API: /api/login/login, Status Code: 200, Response Time: 873 ms
+2024-10-23 15:02:52.151 +07:00  INF  Request from IP: ::1
+2024-10-23 15:02:52.269 +07:00  INF  API: /api/Movies/1, Status Code: 200, Response Time: 86 ms
+2024-10-23 15:04:54.213 +07:00  INF  Request from IP: ::1
+2024-10-23 15:05:06.070 +07:00  INF  Request from IP: ::1
+2024-10-23 15:05:06.997 +07:00  INF  User user, 123456 registered successfully.
+2024-10-23 15:05:06.999 +07:00  INF  API: /api/login/register, Status Code: 200, Response Time: 925 ms
+2024-10-23 15:05:20.673 +07:00  INF  Request from IP: ::1
+2024-10-23 15:05:20.737 +07:00  INF  User user, 123456 logged in successfully.
+2024-10-23 15:05:20.739 +07:00  INF  API: /api/login/login, Status Code: 200, Response Time: 65 ms
+2024-10-23 15:05:35.773 +07:00  INF  Request from IP: ::1
+2024-10-23 15:05:35.809 +07:00  INF  Fetching data from database.
+2024-10-23 15:05:35.898 +07:00  INF  API: /api/Movies, Status Code: 200, Response Time: 94 ms
+2024-10-23 15:05:52.465 +07:00  INF  Request from IP: ::1
+2024-10-23 15:25:47.527 +07:00  INF  Request from IP: ::1
+2024-10-23 15:25:49.902 +07:00  INF  User minhtrieu, 123456 logged in successfully.
+2024-10-23 15:25:49.907 +07:00  INF  API: /api/login/login, Status Code: 200, Response Time: 1538 ms
+2024-10-23 15:26:45.380 +07:00  INF  Request from IP: ::1
+2024-10-23 15:26:46.573 +07:00  INF  User user, 123456 logged in successfully.
+2024-10-23 15:26:46.579 +07:00  INF  API: /api/login/login, Status Code: 200, Response Time: 1128 ms
+2024-10-23 15:26:56.985 +07:00  INF  Request from IP: ::1
+2024-10-23 15:26:57.037 +07:00  INF  Fetching data from database.
+2024-10-23 15:26:57.105 +07:00  INF  API: /api/Movies, Status Code: 200, Response Time: 74 ms
+2024-10-23 15:27:06.418 +07:00  INF  Request from IP: ::1
+2024-10-23 15:27:14.928 +07:00  INF  Request from IP: ::1
+2024-10-23 15:27:14.986 +07:00  INF  User minhtrieu, 123456 logged in successfully.
+2024-10-23 15:27:14.986 +07:00  INF  API: /api/login/login, Status Code: 200, Response Time: 57 ms
+2024-10-23 15:27:27.260 +07:00  INF  Request from IP: ::1
+2024-10-23 15:27:27.265 +07:00  INF  API: /api/test/admin-only, Status Code: 200, Response Time: 3 ms
+2024-10-23 15:28:22.257 +07:00  INF  Request from IP: ::1
+2024-10-23 15:29:11.591 +07:00  INF  Request from IP: ::1
+2024-10-23 15:29:11.606 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 15:29:11.757 +07:00  INF  Fetching data from database.
+2024-10-23 15:29:12.327 +07:00  INF  API: /api/Movies, Status Code: 200, Response Time: 645 ms
+2024-10-23 15:29:19.469 +07:00  INF  Request from IP: ::1
+2024-10-23 15:29:19.469 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 15:29:21.490 +07:00  INF  API: /api/Movies/import-excel, Status Code: 500, Response Time: 2014 ms
+2024-10-23 15:29:38.676 +07:00  INF  Request from IP: ::1
+2024-10-23 15:29:38.693 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 15:29:38.842 +07:00  INF  Fetching data from database.
+2024-10-23 15:29:39.382 +07:00  INF  API: /api/Movies, Status Code: 200, Response Time: 612 ms
+2024-10-23 15:29:46.395 +07:00  INF  Request from IP: ::1
+2024-10-23 15:29:46.395 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 15:31:39.813 +07:00  INF  Request from IP: ::1
+2024-10-23 15:31:39.828 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 15:31:39.978 +07:00  INF  Fetching data from database.
+2024-10-23 15:31:40.533 +07:00  INF  API: /api/Movies, Status Code: 200, Response Time: 628 ms
+2024-10-23 15:31:46.963 +07:00  INF  Request from IP: ::1
+2024-10-23 15:31:46.963 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 15:33:19.118 +07:00  INF  Request from IP: ::1
+2024-10-23 15:33:19.142 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 15:34:57.882 +07:00  INF  Request from IP: ::1
+2024-10-23 15:34:57.898 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 15:36:12.249 +07:00  INF  Request from IP: ::1
+2024-10-23 15:36:12.266 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 15:38:01.097 +07:00  INF  Request from IP: ::1
+2024-10-23 15:38:01.113 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 15:42:11.650 +07:00  INF  Request from IP: ::1
+2024-10-23 15:42:11.666 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 15:42:13.586 +07:00  INF  API: /api/Movies/import-excel, Status Code: 500, Response Time: 1837 ms
+2024-10-23 15:43:32.734 +07:00  INF  Request from IP: ::1
+2024-10-23 15:43:32.758 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 15:47:29.388 +07:00  INF  Request from IP: ::1
+2024-10-23 15:47:29.412 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 15:50:15.677 +07:00  INF  Request from IP: ::1
+2024-10-23 15:50:15.702 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 15:50:43.144 +07:00  INF  Request from IP: ::1
+2024-10-23 15:50:43.161 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 15:51:11.688 +07:00  INF  API: /api/Movies/import-excel, Status Code: 200, Response Time: 28451 ms
+2024-10-23 15:51:18.343 +07:00  INF  Request from IP: ::1
+2024-10-23 15:51:18.343 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-10-23 15:51:18.357 +07:00  INF  Fetching data from database.
+2024-10-23 15:51:18.590 +07:00  INF  API: /api/Movies, Status Code: 200, Response Time: 241 ms
