@@ -176,6 +176,18 @@ builder.Services.AddRequestTimeouts(options =>
     });
 });
 
+// Thêm chính sách CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowLocalhostClient",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:3000") // Thay thế với nguồn front-end của bạn
+                  .AllowAnyMethod()
+                  .AllowAnyHeader();
+        });
+});
+
 builder.Services.AddHttpContextAccessor();
 
 
@@ -190,6 +202,8 @@ if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
     });
 }
+// Sử dụng chính sách CORS
+app.UseCors("AllowLocalhostClient");
 // Bật hỗ trợ WebSockets
 app.UseWebSockets();
 
