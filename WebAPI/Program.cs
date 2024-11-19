@@ -15,6 +15,9 @@ using AspNetCoreRateLimit;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using System.Text.Json;
+using Microsoft.AspNetCore.Http.Timeouts;
+using Newtonsoft.Json;
+using WebAPI.Middleware;
 
 
 ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
@@ -153,8 +156,39 @@ builder.Services.AddControllers()
     })
     .AddXmlSerializerFormatters(); // Thêm hỗ trợ XML;
 
-builder.Services.AddHttpContextAccessor();
+// Cấu hình HttpClient với timeout cho tất cả API
+builder.Services.AddRequestTimeouts(options =>
+{
+    options.AddPolicy("customdelegatepolicy", new RequestTimeoutPolicy
+    {
+        Timeout = TimeSpan.FromSeconds(3),
+        TimeoutStatusCode = 504,
+        WriteTimeoutResponse = async (HttpContext context) => {
+            context.Response.ContentType = "application/json";
+            var errorResponse = new
+            {
+                error = "Request time out from custome delegate policy",
+                status = 504
+            };
+            var jsonResponse = JsonConvert.SerializeObject(errorResponse);
+            await context.Response.WriteAsync(jsonResponse);
+        }
+    });
+});
 
+// Thêm chính sách CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowLocalhostClient",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:3000") // Thay thế với nguồn front-end của bạn
+                  .AllowAnyMethod()
+                  .AllowAnyHeader();
+        });
+});
+
+builder.Services.AddHttpContextAccessor();
 
 
 var app = builder.Build();
@@ -168,6 +202,8 @@ if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
     });
 }
+// Sử dụng chính sách CORS
+app.UseCors("AllowLocalhostClient");
 // Bật hỗ trợ WebSockets
 app.UseWebSockets();
 
@@ -178,12 +214,15 @@ app.UseMiddleware<IPFilterMiddleware>();
 app.UseSerilogRequestLogging();
 app.UseHttpsRedirection();
 
+app.UseRequestTimeouts();
+
 app.UseIpRateLimiting();
 
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseMiddleware<LoggingMiddleware>();
+app.UseMiddleware<WafMiddleware>();
 
 app.MapControllers();
 app.MapGet("/", () => Results.Redirect("/swagger/index.html"));
