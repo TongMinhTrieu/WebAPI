@@ -56,7 +56,7 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("login")]
-        public IActionResult Login([FromBody] User model)
+        public IActionResult Login([FromBody] LoginRequest model)
         {
             var user = _context.Users.SingleOrDefault(u => u.Username == model.Username && u.Password == model.Password);
             if (user == null)
