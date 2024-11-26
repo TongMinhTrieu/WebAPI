@@ -208,10 +208,12 @@ app.UseCors("AllowLocalhostClient");
 app.UseWebSockets();
 
 // Đăng ký middleware
-app.UseWebSocketHandler();
+//app.UseWebSocketHandler();
 app.UseMiddleware<IPFilterMiddleware>();
-
+app.UseWebSockets();
+app.UseMiddleware<WebSocketMiddleware>();
 app.UseSerilogRequestLogging();
+
 app.UseHttpsRedirection();
 
 app.UseRequestTimeouts();
