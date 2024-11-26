@@ -21,7 +21,6 @@ public class WebSocketMiddleware
                 _sockets.Add(socket);
 
                 Console.WriteLine("Client connected to WebSocket server.");
-
                 await ReceiveMessagesAsync(socket);
             }
             else
@@ -44,26 +43,29 @@ public class WebSocketMiddleware
             if (result.MessageType == WebSocketMessageType.Text)
             {
                 var receivedMessage = Encoding.UTF8.GetString(buffer, 0, result.Count);
+                // Gửi phản hồi lại cho tất cả các WebSocket clients (bao gồm Postman)
+                await BroadcastMessageAsync(receivedMessage);
                 Console.WriteLine("Received message: " + receivedMessage);
+
             }
             else if (result.MessageType == WebSocketMessageType.Close)
             {
-                Console.WriteLine("Client disconnected.");
-                await socket.CloseAsync(WebSocketCloseStatus.NormalClosure, "Closed by client", CancellationToken.None);
+                Console.WriteLine("Client disconnected.");               
                 _sockets.Remove(socket);
+                await socket.CloseAsync(WebSocketCloseStatus.NormalClosure, "Closed by client", CancellationToken.None);
             }
         }
     }
 
-    public static async Task BroadcastMessageAsync(string message)
+    public static async Task BroadcastMessageAsync(string receivedMessage)
     {
         foreach (var socket in _sockets.ToList())
         {
             if (socket.State == WebSocketState.Open)
             {
-                var messageBytes = Encoding.UTF8.GetBytes(message);
+                var messageBytes = Encoding.UTF8.GetBytes(receivedMessage);
                 await socket.SendAsync(new ArraySegment<byte>(messageBytes), WebSocketMessageType.Text, true, CancellationToken.None);
-                Console.WriteLine("Broadcasted: " + message);
+                Console.WriteLine("Broadcasted: " + receivedMessage);
             }
             else
             {
@@ -73,61 +75,3 @@ public class WebSocketMiddleware
     }
 }
 
-
-//public class WebSocketHandlerMiddleware
-//{
-//    private readonly RequestDelegate _next;
-
-//    public WebSocketHandlerMiddleware(RequestDelegate next)
-//    {
-//        _next = next;
-//    }
-
-//    public async Task InvokeAsync(HttpContext context)
-//    {
-//        // Kiểm tra nếu kết nối là WebSocket
-//        if (context.WebSockets.IsWebSocketRequest)
-//        {
-//            var webSocket = await context.WebSockets.AcceptWebSocketAsync();
-//            await HandleWebSocketConnection(webSocket);
-//        }
-//        else
-//        {
-//            await _next(context);
-//        }
-//    }
-
-//    private async Task HandleWebSocketConnection(WebSocket webSocket)
-//    {
-//        var buffer = new byte[1024 * 4];
-
-//        while (webSocket.State == WebSocketState.Open)
-//        {
-//            var result = await webSocket.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None);
-
-//            if (result.MessageType == WebSocketMessageType.Text)
-//            {
-//                string message = System.Text.Encoding.UTF8.GetString(buffer, 0, result.Count);
-//                Console.WriteLine($"Received: {message}");
-
-//                var responseMessage = $"Server Echo: {message}";
-//                var responseBytes = System.Text.Encoding.UTF8.GetBytes(responseMessage);
-//                await webSocket.SendAsync(new ArraySegment<byte>(responseBytes), WebSocketMessageType.Text, true, CancellationToken.None);
-//            }
-//            else if (result.MessageType == WebSocketMessageType.Close)
-//            {
-//                await webSocket.CloseAsync(WebSocketCloseStatus.NormalClosure, "Closing", CancellationToken.None);
-//                Console.WriteLine("WebSocket connection closed.");
-//            }
-//        }
-//    }
-//}
-
-//// Middleware extension method
-//public static class WebSocketMiddlewareExtensions
-//{
-//    public static IApplicationBuilder UseWebSocketHandler(this IApplicationBuilder builder)
-//    {
-//        return builder.UseMiddleware<WebSocketHandlerMiddleware>();
-//    }
-//}
