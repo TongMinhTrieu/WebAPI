@@ -7,6 +7,7 @@ using WebAPI.Data;
 using WebAPI.Models;
 using OfficeOpenXml;
 using Microsoft.AspNetCore.Mvc.Versioning;
+using Microsoft.AspNetCore.Http.Timeouts;
 
 
 namespace WebAPI.Controllers
@@ -30,9 +31,13 @@ namespace WebAPI.Controllers
         //Get Method: api/Movies
         //Sử dụng cache để lưu các get hay sử dụng
         [Authorize]
+        //[HttpGet("/{waitSeconds:int}")]
+
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Movie>>> GetMovies()
+        [RequestTimeout("customdelegatepolicy")]
+        public async Task<ActionResult<IEnumerable<Movie>>> GetMovies() //[FromRoute] int waitSeconds (bỏ vào biến đầu vào)
         {
+            //await Task.Delay(TimeSpan.FromSeconds(waitSeconds), HttpContext.RequestAborted);
             if (!_cache.TryGetValue(MoviesCacheKey, out List<Movie> movies))
             {
                 _logger.LogInformation("Fetching data from database.");
