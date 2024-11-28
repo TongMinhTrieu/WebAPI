@@ -2,6 +2,7 @@
 {
     public class SystemInfo
     {
+        public string ClientIp { get; set; } // IP
         public string CpuUsage { get; set; }      // CPU %
         public string MemoryAvailable { get; set; }   // MB 
         public string DiskFreeSpace { get; set; } // GB
