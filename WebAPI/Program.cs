@@ -212,6 +212,7 @@ app.UseWebSockets();
 app.UseMiddleware<IPFilterMiddleware>();
 app.UseWebSockets();
 app.UseMiddleware<WebSocketMiddleware>();
+
 app.UseSerilogRequestLogging();
 
 app.UseHttpsRedirection();

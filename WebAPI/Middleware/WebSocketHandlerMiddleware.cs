@@ -1,10 +1,15 @@
-﻿using System.Net.WebSockets;
+﻿using System.Collections.Concurrent;
+using System.Net.WebSockets;
 using System.Text;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using WebAPI.Models;
 
 public class WebSocketMiddleware
 {
     private readonly RequestDelegate _next;
     private static readonly List<WebSocket> _sockets = new();
+    private static readonly ConcurrentDictionary<string, List<SystemInfo>> ClientData = new(); //Lưu trữ tạm thời
 
     public WebSocketMiddleware(RequestDelegate next)
     {
@@ -45,8 +50,6 @@ public class WebSocketMiddleware
                 var receivedMessage = Encoding.UTF8.GetString(buffer, 0, result.Count);
                 // Gửi phản hồi lại cho tất cả các WebSocket clients (bao gồm Postman)
                 await BroadcastMessageAsync(receivedMessage);
-                Console.WriteLine("Received message: " + receivedMessage);
-
             }
             else if (result.MessageType == WebSocketMessageType.Close)
             {
@@ -63,9 +66,28 @@ public class WebSocketMiddleware
         {
             if (socket.State == WebSocketState.Open)
             {
+                var options = new JsonSerializerOptions
+                {
+                    WriteIndented = true, // Tùy chọn, nếu muốn JSON dễ đọc
+                    NumberHandling = JsonNumberHandling.AllowNamedFloatingPointLiterals
+                };
                 var messageBytes = Encoding.UTF8.GetBytes(receivedMessage);
                 await socket.SendAsync(new ArraySegment<byte>(messageBytes), WebSocketMessageType.Text, true, CancellationToken.None);
                 Console.WriteLine("Broadcasted: " + receivedMessage);
+
+                // Parse JSON và xử lý
+                var systemInfo = JsonSerializer.Deserialize<SystemInfo>(receivedMessage, options);
+                if (systemInfo != null)
+                {
+                    // Lưu vào danh sách
+                    var clientId = socket.GetHashCode().ToString(); // Hoặc dùng IP client nếu cần
+                    if (!ClientData.ContainsKey(clientId))
+                    {
+                        ClientData[clientId] = new List<SystemInfo>();
+                    }
+
+                    ClientData[clientId].Add(systemInfo);
+                }
             }
             else
             {
