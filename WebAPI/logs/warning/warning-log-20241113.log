@@ -1,0 +1,21 @@
+2024-11-13 09:36:39.993 +07:00  ERR  Failed executing DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+            CREATE PROCEDURE GetMovies
+            AS
+            BEGIN
+                SELECT * FROM Movies;
+            END
+2024-11-13 09:39:18.572 +07:00  ERR  Failed executing DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+            CREATE PROCEDURE GetMovies
+            AS
+            BEGIN
+                SELECT * FROM Movies;
+            END
+2024-11-13 09:41:35.572 +07:00  ERR  Failed executing DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+            CREATE PROCEDURE GetMovieID @id
+            AS
+            BEGIN
+                SELECT * FROM Movies Where ID = @id;
+            END

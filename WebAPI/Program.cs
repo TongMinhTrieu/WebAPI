@@ -224,7 +224,6 @@ app.UseIpRateLimiting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.UseMiddleware<LoggingMiddleware>();
 app.UseMiddleware<WafMiddleware>();
 
 app.MapControllers();

@@ -18,10 +18,7 @@ public class LoggingMiddleware
     {
         // Ghi log khi nhận yêu cầu
         var stopWatch = Stopwatch.StartNew();
-
-        await _next(context); // Gọi middleware tiếp theo
-
-        // Ghi log sau khi xử lý xong yêu cầu
+        await _next(context);
         stopWatch.Stop();
         var responseTime = stopWatch.ElapsedMilliseconds;
 

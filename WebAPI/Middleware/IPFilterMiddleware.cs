@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
+using System.Diagnostics;
 using System.IdentityModel.Tokens.Jwt;
 using System.Net;
 using System.Security.Claims;
@@ -28,8 +29,7 @@ public class IPFilterMiddleware
     public async Task InvokeAsync(HttpContext context)
     {
         var remoteIp = context.Connection.RemoteIpAddress?.ToString();
-
-        _logger.LogInformation($"Request from IP: {remoteIp}");
+        var stopWatch = Stopwatch.StartNew();
 
         // Kiểm tra trong blacklist
         if (_blacklist.Contains(remoteIp))
@@ -52,12 +52,18 @@ public class IPFilterMiddleware
             context.Request.Headers["Authorization"] = "Bearer " + token;
         }
         await _next(context); // Chuyển tiếp yêu cầu
+        
+        stopWatch.Stop();
+        var responseTime = stopWatch.ElapsedMilliseconds;
+        var logMessage = $"IP: {remoteIp}. Request: API: {context.Request.Path}, Status Code: {context.Response.StatusCode}, Response Time: {responseTime} ms";
+        // Ghi log thông tin
+        _logger.LogInformation(logMessage);
     }
+
 
     private string GenerateTokenForWhitelistIp()
     {
         // Logic để tạo token hợp lệ, có thể dùng thư viện JWT để tạo token
-        // Ví dụ tạo token với thông tin cơ bản (bạn cần thay đổi theo yêu cầu của bạn)
         var role = "Admin";
         var tokenHandler = new JwtSecurityTokenHandler();
         var jwtSection = _configuration.GetSection("Jwt");

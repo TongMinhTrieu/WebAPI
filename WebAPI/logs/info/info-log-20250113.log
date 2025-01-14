@@ -1,0 +1,2949 @@
+2025-01-13 16:19:50.138 +07:00 INF Request from IP: ::1
+2025-01-13 16:19:50.154 +07:00 INF IP ::1 is whitelisted. Skipping authentication.
+2025-01-13 16:19:50.289 +07:00 INF API: /api/test, Status Code: 200, Response Time: 152 ms
+2025-01-13 16:20:02.648 +07:00 INF Request from IP: ::1
+2025-01-13 16:20:02.648 +07:00 INF IP ::1 is whitelisted. Skipping authentication.
+2025-01-13 16:20:02.658 +07:00 INF API: /api/test/user-data, Status Code: 403, Response Time: 10 ms
+2025-01-13 16:27:57.414 +07:00 INF IP ::1 is whitelisted. Skipping authentication.
+2025-01-13 16:27:57.537 +07:00 INF IP: ::1. Request: API: /api/test/user-data, Status Code: 403, Response Time: 124 ms
+2025-01-13 16:29:58.838 +07:00 INF IP ::1 is whitelisted. Skipping authentication.
+2025-01-13 16:29:58.841 +07:00 INF IP: ::1. Request: API: /api/test/user-data, Status Code: 403, Response Time: 3 ms
+2025-01-13 16:57:14.919 +07:00 INF IP ::1 is whitelisted. Skipping authentication.
+2025-01-13 16:57:15.097 +07:00 INF IP: ::1. Request: API: /api/test, Status Code: 200, Response Time: 179 ms
+2025-01-13 17:04:47.769 +07:00 INF IP ::1 is whitelisted. Skipping authentication.
+2025-01-13 17:04:48.367 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:04:48.2223004\u002B07:00",
+  "CpuUsage": "0.00",
+  "MemoryAvailable": "1324.00",
+  "DiskFreeSpace": "138.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.54 Kbps",
+      "SendSpeed": "0.54 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:04:48.478 +07:00 INF IP ::1 is whitelisted. Skipping authentication.
+2025-01-13 17:04:48.551 +07:00 INF IP: ::1. Request: API: /, Status Code: 302, Response Time: 72 ms
+2025-01-13 17:04:50.550 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:04:50.5453848\u002B07:00",
+  "CpuUsage": "34.74",
+  "MemoryAvailable": "1079.00",
+  "DiskFreeSpace": "138.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "1.52 Kbps",
+      "SendSpeed": "2.30 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/index.html",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui-bundle.js",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui-standalone-preset.js",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui.css",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/v1/swagger.json",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/favicon-32x32.png",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:04:52.862 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:04:52.8595916\u002B07:00",
+  "CpuUsage": "20.87",
+  "MemoryAvailable": "1078.00",
+  "DiskFreeSpace": "138.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "2.20 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/index.html",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui-bundle.js",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui-standalone-preset.js",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui.css",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/v1/swagger.json",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/favicon-32x32.png",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:04:55.195 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:04:55.190422\u002B07:00",
+  "CpuUsage": "22.39",
+  "MemoryAvailable": "1082.00",
+  "DiskFreeSpace": "138.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "14.21 Kbps",
+      "SendSpeed": "3.75 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/index.html",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui-bundle.js",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui-standalone-preset.js",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui.css",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/v1/swagger.json",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/favicon-32x32.png",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:04:57.523 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:04:57.5187561\u002B07:00",
+  "CpuUsage": "19.34",
+  "MemoryAvailable": "1131.00",
+  "DiskFreeSpace": "138.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/index.html",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui-bundle.js",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui-standalone-preset.js",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui.css",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/v1/swagger.json",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/favicon-32x32.png",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:04:59.907 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:04:59.9032989\u002B07:00",
+  "CpuUsage": "18.29",
+  "MemoryAvailable": "1110.00",
+  "DiskFreeSpace": "138.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "7.47 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/index.html",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui-bundle.js",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui-standalone-preset.js",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui.css",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/v1/swagger.json",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/favicon-32x32.png",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:05:02.304 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:05:02.2981417\u002B07:00",
+  "CpuUsage": "25.07",
+  "MemoryAvailable": "1074.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "19.69 Kbps",
+      "SendSpeed": "18.36 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/index.html",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui-bundle.js",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui-standalone-preset.js",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui.css",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/v1/swagger.json",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/favicon-32x32.png",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:05:04.676 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:05:04.6711277\u002B07:00",
+  "CpuUsage": "17.72",
+  "MemoryAvailable": "1090.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.31 Kbps",
+      "SendSpeed": "0.74 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/index.html",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui-bundle.js",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui-standalone-preset.js",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui.css",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/v1/swagger.json",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/favicon-32x32.png",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:05:07.034 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:05:07.0280536\u002B07:00",
+  "CpuUsage": "15.76",
+  "MemoryAvailable": "1088.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.42 Kbps",
+      "SendSpeed": "0.23 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/index.html",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui-bundle.js",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui-standalone-preset.js",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui.css",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/v1/swagger.json",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/favicon-32x32.png",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:05:09.346 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:05:09.3396034\u002B07:00",
+  "CpuUsage": "16.30",
+  "MemoryAvailable": "1114.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.85 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/index.html",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui-bundle.js",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui-standalone-preset.js",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui.css",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/v1/swagger.json",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/favicon-32x32.png",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:05:11.700 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:05:11.6910305\u002B07:00",
+  "CpuUsage": "19.83",
+  "MemoryAvailable": "1129.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.40 Kbps",
+      "SendSpeed": "2.09 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/index.html",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui-bundle.js",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui-standalone-preset.js",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui.css",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/v1/swagger.json",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/favicon-32x32.png",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:05:14.029 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:05:13.9996012\u002B07:00",
+  "CpuUsage": "18.83",
+  "MemoryAvailable": "1144.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "1.42 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/index.html",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui-bundle.js",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui-standalone-preset.js",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/swagger-ui.css",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/v1/swagger.json",
+      "Calls": 1
+    },
+    {
+      "Api": "GET /swagger/favicon-32x32.png",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:05:14.259 +07:00 ERR An unhandled exception has occurred while executing the request.System.Net.WebSockets.WebSocketException (0x80004005): The remote party closed the WebSocket connection without completing the close handshake.
+ ---> Microsoft.AspNetCore.Connections.ConnectionResetException: An existing connection was forcibly closed by the remote host.
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Pipelines.StreamPipeReader.<ReadInternalAsync>g__Core|40_0(StreamPipeReader reader, Nullable`1 minimumSize, CancellationTokenSource tokenSource, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1UpgradeMessageBody.ReadAsyncInternalAwaited(ValueTask`1 readTask, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Stream.ReadAtLeastAsyncCore(Memory`1 buffer, Int32 minimumBytes, Boolean throwOnEndOfStream, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.WebSockets.ManagedWebSocket.EnsureBufferContainsAsync(Int32 minimumRequiredBytes, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TResult](Memory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TResult](Memory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at WebSocketMiddleware.ReceiveMessagesAsync(WebSocket socket) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\WebSocketHandlerMiddleware.cs:line 51
+   at WebSocketMiddleware.InvokeAsync(HttpContext context) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\WebSocketHandlerMiddleware.cs:line 33
+   at IPFilterMiddleware.InvokeAsync(HttpContext context) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\IPFilterMiddleware.cs:line 54
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2025-01-13 17:05:14.304 +07:00 ERR Connection id "0HN9JN6AFHJ76", Request id "0HN9JN6AFHJ76:00000001": An unhandled exception was thrown by the application.System.Net.WebSockets.WebSocketException (0x80004005): The remote party closed the WebSocket connection without completing the close handshake.
+ ---> Microsoft.AspNetCore.Connections.ConnectionResetException: An existing connection was forcibly closed by the remote host.
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Pipelines.StreamPipeReader.<ReadInternalAsync>g__Core|40_0(StreamPipeReader reader, Nullable`1 minimumSize, CancellationTokenSource tokenSource, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1UpgradeMessageBody.ReadAsyncInternalAwaited(ValueTask`1 readTask, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Stream.ReadAtLeastAsyncCore(Memory`1 buffer, Int32 minimumBytes, Boolean throwOnEndOfStream, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.WebSockets.ManagedWebSocket.EnsureBufferContainsAsync(Int32 minimumRequiredBytes, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TResult](Memory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TResult](Memory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at WebSocketMiddleware.ReceiveMessagesAsync(WebSocket socket) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\WebSocketHandlerMiddleware.cs:line 51
+   at WebSocketMiddleware.InvokeAsync(HttpContext context) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\WebSocketHandlerMiddleware.cs:line 33
+   at IPFilterMiddleware.InvokeAsync(HttpContext context) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\IPFilterMiddleware.cs:line 54
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2025-01-13 17:07:26.347 +07:00 INF IP ::1 is whitelisted. Skipping authentication.
+2025-01-13 17:07:26.751 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:07:26.7312152\u002B07:00",
+  "CpuUsage": "0.00",
+  "MemoryAvailable": "1350.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.20 Kbps",
+      "SendSpeed": "2.69 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:07:29.068 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:07:29.056347\u002B07:00",
+  "CpuUsage": "19.07",
+  "MemoryAvailable": "1252.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.20 Kbps",
+      "SendSpeed": "1.16 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:07:31.412 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:07:31.4044863\u002B07:00",
+  "CpuUsage": "18.16",
+  "MemoryAvailable": "1179.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:07:33.783 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:07:33.7757094\u002B07:00",
+  "CpuUsage": "21.66",
+  "MemoryAvailable": "1169.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "3.48 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:07:36.125 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:07:36.1199226\u002B07:00",
+  "CpuUsage": "14.20",
+  "MemoryAvailable": "1177.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:07:36.970 +07:00 ERR An unhandled exception has occurred while executing the request.System.Net.WebSockets.WebSocketException (0x80004005): The remote party closed the WebSocket connection without completing the close handshake.
+ ---> Microsoft.AspNetCore.Connections.ConnectionResetException: An existing connection was forcibly closed by the remote host.
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Pipelines.StreamPipeReader.<ReadInternalAsync>g__Core|40_0(StreamPipeReader reader, Nullable`1 minimumSize, CancellationTokenSource tokenSource, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1UpgradeMessageBody.ReadAsyncInternalAwaited(ValueTask`1 readTask, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Stream.ReadAtLeastAsyncCore(Memory`1 buffer, Int32 minimumBytes, Boolean throwOnEndOfStream, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.WebSockets.ManagedWebSocket.EnsureBufferContainsAsync(Int32 minimumRequiredBytes, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TResult](Memory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TResult](Memory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at WebSocketMiddleware.ReceiveMessagesAsync(WebSocket socket) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\WebSocketHandlerMiddleware.cs:line 51
+   at WebSocketMiddleware.InvokeAsync(HttpContext context) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\WebSocketHandlerMiddleware.cs:line 33
+   at IPFilterMiddleware.InvokeAsync(HttpContext context) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\IPFilterMiddleware.cs:line 54
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2025-01-13 17:07:36.975 +07:00 ERR Connection id "0HN9JN6AFHJ78", Request id "0HN9JN6AFHJ78:00000001": An unhandled exception was thrown by the application.System.Net.WebSockets.WebSocketException (0x80004005): The remote party closed the WebSocket connection without completing the close handshake.
+ ---> Microsoft.AspNetCore.Connections.ConnectionResetException: An existing connection was forcibly closed by the remote host.
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Pipelines.StreamPipeReader.<ReadInternalAsync>g__Core|40_0(StreamPipeReader reader, Nullable`1 minimumSize, CancellationTokenSource tokenSource, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1UpgradeMessageBody.ReadAsyncInternalAwaited(ValueTask`1 readTask, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Stream.ReadAtLeastAsyncCore(Memory`1 buffer, Int32 minimumBytes, Boolean throwOnEndOfStream, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.WebSockets.ManagedWebSocket.EnsureBufferContainsAsync(Int32 minimumRequiredBytes, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TResult](Memory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TResult](Memory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at WebSocketMiddleware.ReceiveMessagesAsync(WebSocket socket) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\WebSocketHandlerMiddleware.cs:line 51
+   at WebSocketMiddleware.InvokeAsync(HttpContext context) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\WebSocketHandlerMiddleware.cs:line 33
+   at IPFilterMiddleware.InvokeAsync(HttpContext context) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\IPFilterMiddleware.cs:line 54
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2025-01-13 17:07:56.881 +07:00 INF IP ::1 is whitelisted. Skipping authentication.
+2025-01-13 17:07:57.285 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:07:57.253206\u002B07:00",
+  "CpuUsage": "0.00",
+  "MemoryAvailable": "1276.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:07:59.599 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:07:59.5932798\u002B07:00",
+  "CpuUsage": "24.08",
+  "MemoryAvailable": "1188.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:08:02.004 +07:00 ERR An unhandled exception has occurred while executing the request.System.Net.WebSockets.WebSocketException (0x80004005): The remote party closed the WebSocket connection without completing the close handshake.
+ ---> Microsoft.AspNetCore.Connections.ConnectionResetException: An existing connection was forcibly closed by the remote host.
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Pipelines.StreamPipeReader.<ReadInternalAsync>g__Core|40_0(StreamPipeReader reader, Nullable`1 minimumSize, CancellationTokenSource tokenSource, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1UpgradeMessageBody.ReadAsyncInternalAwaited(ValueTask`1 readTask, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Stream.ReadAtLeastAsyncCore(Memory`1 buffer, Int32 minimumBytes, Boolean throwOnEndOfStream, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.WebSockets.ManagedWebSocket.EnsureBufferContainsAsync(Int32 minimumRequiredBytes, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TResult](Memory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TResult](Memory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at WebSocketMiddleware.ReceiveMessagesAsync(WebSocket socket) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\WebSocketHandlerMiddleware.cs:line 51
+   at WebSocketMiddleware.InvokeAsync(HttpContext context) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\WebSocketHandlerMiddleware.cs:line 33
+   at IPFilterMiddleware.InvokeAsync(HttpContext context) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\IPFilterMiddleware.cs:line 54
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2025-01-13 17:08:02.014 +07:00 ERR Connection id "0HN9JN6AFHJ79", Request id "0HN9JN6AFHJ79:00000001": An unhandled exception was thrown by the application.System.Net.WebSockets.WebSocketException (0x80004005): The remote party closed the WebSocket connection without completing the close handshake.
+ ---> Microsoft.AspNetCore.Connections.ConnectionResetException: An existing connection was forcibly closed by the remote host.
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Pipelines.StreamPipeReader.<ReadInternalAsync>g__Core|40_0(StreamPipeReader reader, Nullable`1 minimumSize, CancellationTokenSource tokenSource, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1UpgradeMessageBody.ReadAsyncInternalAwaited(ValueTask`1 readTask, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Stream.ReadAtLeastAsyncCore(Memory`1 buffer, Int32 minimumBytes, Boolean throwOnEndOfStream, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.WebSockets.ManagedWebSocket.EnsureBufferContainsAsync(Int32 minimumRequiredBytes, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TResult](Memory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TResult](Memory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at WebSocketMiddleware.ReceiveMessagesAsync(WebSocket socket) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\WebSocketHandlerMiddleware.cs:line 51
+   at WebSocketMiddleware.InvokeAsync(HttpContext context) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\WebSocketHandlerMiddleware.cs:line 33
+   at IPFilterMiddleware.InvokeAsync(HttpContext context) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\IPFilterMiddleware.cs:line 54
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2025-01-13 17:08:36.937 +07:00 INF IP ::1 is whitelisted. Skipping authentication.
+2025-01-13 17:08:37.353 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:08:37.3133217\u002B07:00",
+  "CpuUsage": "0.00",
+  "MemoryAvailable": "1521.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.22 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:08:39.650 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:08:39.6467441\u002B07:00",
+  "CpuUsage": "14.76",
+  "MemoryAvailable": "1368.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.31 Kbps",
+      "SendSpeed": "4.88 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:08:41.946 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:08:41.9421219\u002B07:00",
+  "CpuUsage": "2.70",
+  "MemoryAvailable": "1351.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:08:44.247 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:08:44.243491\u002B07:00",
+  "CpuUsage": "4.78",
+  "MemoryAvailable": "1347.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.83 Kbps",
+      "SendSpeed": "0.78 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:08:46.540 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:08:46.5367709\u002B07:00",
+  "CpuUsage": "2.41",
+  "MemoryAvailable": "1398.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "1.59 Kbps",
+      "SendSpeed": "1.62 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:08:48.836 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:08:48.8327933\u002B07:00",
+  "CpuUsage": "2.71",
+  "MemoryAvailable": "1410.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "3.25 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:08:51.143 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:08:51.1401199\u002B07:00",
+  "CpuUsage": "5.27",
+  "MemoryAvailable": "1412.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:08:53.452 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:08:53.4467751\u002B07:00",
+  "CpuUsage": "4.22",
+  "MemoryAvailable": "1383.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.20 Kbps",
+      "SendSpeed": "0.41 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:08:55.744 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:08:55.7406761\u002B07:00",
+  "CpuUsage": "2.39",
+  "MemoryAvailable": "1377.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:09:03.065 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:09:03.0622981\u002B07:00",
+  "CpuUsage": "3.77",
+  "MemoryAvailable": "1409.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "3.52 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:09:05.350 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:09:05.3459883\u002B07:00",
+  "CpuUsage": "11.96",
+  "MemoryAvailable": "1396.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:09:07.657 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:09:07.6533646\u002B07:00",
+  "CpuUsage": "9.78",
+  "MemoryAvailable": "1405.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.20 Kbps",
+      "SendSpeed": "1.38 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:09:09.954 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:09:09.9506234\u002B07:00",
+  "CpuUsage": "6.09",
+  "MemoryAvailable": "1404.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.21 Kbps",
+      "SendSpeed": "19.46 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:09:12.242 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:09:12.2387531\u002B07:00",
+  "CpuUsage": "2.67",
+  "MemoryAvailable": "1434.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:09:14.530 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:09:14.5268858\u002B07:00",
+  "CpuUsage": "3.92",
+  "MemoryAvailable": "1370.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "5.32 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:09:16.838 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:09:16.8355772\u002B07:00",
+  "CpuUsage": "2.31",
+  "MemoryAvailable": "1377.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "1.53 Kbps",
+      "SendSpeed": "5.82 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:09:19.124 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:09:19.1215604\u002B07:00",
+  "CpuUsage": "2.75",
+  "MemoryAvailable": "1378.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:09:21.421 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:09:21.4191806\u002B07:00",
+  "CpuUsage": "5.60",
+  "MemoryAvailable": "1437.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "1.23 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:09:37.171 +07:00 ERR An unhandled exception has occurred while executing the request.System.Net.WebSockets.WebSocketException (0x80004005): The remote party closed the WebSocket connection without completing the close handshake.
+ ---> Microsoft.AspNetCore.Connections.ConnectionResetException: An existing connection was forcibly closed by the remote host.
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Pipelines.StreamPipeReader.<ReadInternalAsync>g__Core|40_0(StreamPipeReader reader, Nullable`1 minimumSize, CancellationTokenSource tokenSource, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1UpgradeMessageBody.ReadAsyncInternalAwaited(ValueTask`1 readTask, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Stream.ReadAtLeastAsyncCore(Memory`1 buffer, Int32 minimumBytes, Boolean throwOnEndOfStream, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.WebSockets.ManagedWebSocket.EnsureBufferContainsAsync(Int32 minimumRequiredBytes, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TResult](Memory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TResult](Memory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at WebSocketMiddleware.ReceiveMessagesAsync(WebSocket socket) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\WebSocketHandlerMiddleware.cs:line 51
+   at WebSocketMiddleware.InvokeAsync(HttpContext context) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\WebSocketHandlerMiddleware.cs:line 33
+   at IPFilterMiddleware.InvokeAsync(HttpContext context) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\IPFilterMiddleware.cs:line 54
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2025-01-13 17:09:37.176 +07:00 ERR Connection id "0HN9JN6AFHJ7A", Request id "0HN9JN6AFHJ7A:00000001": An unhandled exception was thrown by the application.System.Net.WebSockets.WebSocketException (0x80004005): The remote party closed the WebSocket connection without completing the close handshake.
+ ---> Microsoft.AspNetCore.Connections.ConnectionResetException: An existing connection was forcibly closed by the remote host.
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Pipelines.StreamPipeReader.<ReadInternalAsync>g__Core|40_0(StreamPipeReader reader, Nullable`1 minimumSize, CancellationTokenSource tokenSource, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1UpgradeMessageBody.ReadAsyncInternalAwaited(ValueTask`1 readTask, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Stream.ReadAtLeastAsyncCore(Memory`1 buffer, Int32 minimumBytes, Boolean throwOnEndOfStream, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.WebSockets.ManagedWebSocket.EnsureBufferContainsAsync(Int32 minimumRequiredBytes, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TResult](Memory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TResult](Memory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at WebSocketMiddleware.ReceiveMessagesAsync(WebSocket socket) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\WebSocketHandlerMiddleware.cs:line 51
+   at WebSocketMiddleware.InvokeAsync(HttpContext context) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\WebSocketHandlerMiddleware.cs:line 33
+   at IPFilterMiddleware.InvokeAsync(HttpContext context) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\IPFilterMiddleware.cs:line 54
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2025-01-13 17:09:47.577 +07:00 INF IP ::1 is whitelisted. Skipping authentication.
+2025-01-13 17:09:48.005 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:09:47.9885549\u002B07:00",
+  "CpuUsage": "0.00",
+  "MemoryAvailable": "1401.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "1.12 Kbps",
+      "SendSpeed": "1.54 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:09:50.306 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:09:50.3047376\u002B07:00",
+  "CpuUsage": "12.26",
+  "MemoryAvailable": "1297.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:09:52.607 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:09:52.6052148\u002B07:00",
+  "CpuUsage": "4.01",
+  "MemoryAvailable": "1277.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.29 Kbps",
+      "SendSpeed": "3.72 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:09:54.903 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:09:54.9013633\u002B07:00",
+  "CpuUsage": "5.94",
+  "MemoryAvailable": "1277.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:09:57.189 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:09:57.1872827\u002B07:00",
+  "CpuUsage": "4.88",
+  "MemoryAvailable": "1284.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:09:59.151 +07:00 INF IP ::1 is whitelisted. Skipping authentication.
+2025-01-13 17:09:59.202 +07:00 INF IP: ::1. Request: API: /api/test, Status Code: 200, Response Time: 50 ms
+2025-01-13 17:09:59.494 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:09:59.4920103\u002B07:00",
+  "CpuUsage": "5.46",
+  "MemoryAvailable": "1273.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:10:01.790 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:10:01.788286\u002B07:00",
+  "CpuUsage": "16.89",
+  "MemoryAvailable": "1265.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.26 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:10:04.097 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:10:04.094568\u002B07:00",
+  "CpuUsage": "6.69",
+  "MemoryAvailable": "1261.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "1.10 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:10:06.388 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:10:06.3854599\u002B07:00",
+  "CpuUsage": "9.07",
+  "MemoryAvailable": "1251.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:10:08.692 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:10:08.690187\u002B07:00",
+  "CpuUsage": "11.55",
+  "MemoryAvailable": "1238.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:10:10.996 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:10:10.9921858\u002B07:00",
+  "CpuUsage": "19.73",
+  "MemoryAvailable": "1240.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.76 Kbps",
+      "SendSpeed": "0.44 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:10:13.299 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:10:13.2952535\u002B07:00",
+  "CpuUsage": "15.14",
+  "MemoryAvailable": "1233.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.33 Kbps",
+      "SendSpeed": "0.23 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:10:15.600 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:10:15.59801\u002B07:00",
+  "CpuUsage": "17.12",
+  "MemoryAvailable": "1267.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.31 Kbps",
+      "SendSpeed": "0.22 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:10:17.893 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:10:17.8909163\u002B07:00",
+  "CpuUsage": "10.52",
+  "MemoryAvailable": "1290.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "1.83 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:10:20.181 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:10:20.1790321\u002B07:00",
+  "CpuUsage": "4.24",
+  "MemoryAvailable": "1289.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "4.23 Kbps",
+      "SendSpeed": "5.53 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:10:22.497 +07:00 INF Broadcasting message: {
+  "ClientIp": "192.168.40.123",
+  "DateStamp": "2025-01-13T17:10:22.4893145\u002B07:00",
+  "CpuUsage": "4.77",
+  "MemoryAvailable": "1300.00",
+  "DiskFreeSpace": "137.00",
+  "DiskTotalSpace": "269.00",
+  "NetworkSpeed": [
+    {
+      "NetworkInterface": "Intel[R] Wi-Fi 6 AX200 160MHz",
+      "ReceiveSpeed": "0.26 Kbps",
+      "SendSpeed": "1.52 Kbps"
+    },
+    {
+      "NetworkInterface": "Realtek Gaming 2.5GbE Family Controller",
+      "ReceiveSpeed": "0.00 Kbps",
+      "SendSpeed": "0.00 Kbps"
+    }
+  ],
+  "ApiStatistics": [
+    {
+      "Api": "GET /",
+      "Calls": 1
+    }
+  ],
+  "ListDatabases": [
+    "master",
+    "tempdb",
+    "model",
+    "msdb",
+    "DWDiagnostics",
+    "DWConfiguration",
+    "DWQueue",
+    "AdsunData",
+    "AdsunData_Replication",
+    "MovieContext",
+    "MovieContext_Replication",
+    "QuanLyDonHang",
+    "ServerMonitor",
+    "THANHHUNG",
+    "distribution",
+    "AdsunData1"
+  ]
+}
+2025-01-13 17:10:24.519 +07:00 ERR An unhandled exception has occurred while executing the request.System.Net.WebSockets.WebSocketException (0x80004005): The remote party closed the WebSocket connection without completing the close handshake.
+ ---> Microsoft.AspNetCore.Connections.ConnectionResetException: An existing connection was forcibly closed by the remote host.
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Pipelines.StreamPipeReader.<ReadInternalAsync>g__Core|40_0(StreamPipeReader reader, Nullable`1 minimumSize, CancellationTokenSource tokenSource, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1UpgradeMessageBody.ReadAsyncInternalAwaited(ValueTask`1 readTask, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Stream.ReadAtLeastAsyncCore(Memory`1 buffer, Int32 minimumBytes, Boolean throwOnEndOfStream, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.WebSockets.ManagedWebSocket.EnsureBufferContainsAsync(Int32 minimumRequiredBytes, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TResult](Memory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TResult](Memory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at WebSocketMiddleware.ReceiveMessagesAsync(WebSocket socket) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\WebSocketHandlerMiddleware.cs:line 51
+   at WebSocketMiddleware.InvokeAsync(HttpContext context) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\WebSocketHandlerMiddleware.cs:line 33
+   at IPFilterMiddleware.InvokeAsync(HttpContext context) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\IPFilterMiddleware.cs:line 54
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2025-01-13 17:10:24.523 +07:00 ERR Connection id "0HN9JN6AFHJ7B", Request id "0HN9JN6AFHJ7B:00000001": An unhandled exception was thrown by the application.System.Net.WebSockets.WebSocketException (0x80004005): The remote party closed the WebSocket connection without completing the close handshake.
+ ---> Microsoft.AspNetCore.Connections.ConnectionResetException: An existing connection was forcibly closed by the remote host.
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   --- End of inner exception stack trace ---
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.DuplexPipeStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken, Int32 estimatedSize)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](Memory`1 buffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Pipelines.StreamPipeReader.<ReadInternalAsync>g__Core|40_0(StreamPipeReader reader, Nullable`1 minimumSize, CancellationTokenSource tokenSource, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Http1UpgradeMessageBody.ReadAsyncInternalAwaited(ValueTask`1 readTask, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream.ReadAsyncInternal(Memory`1 destination, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.IO.Stream.ReadAtLeastAsyncCore(Memory`1 buffer, Int32 minimumBytes, Boolean throwOnEndOfStream, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.WebSockets.ManagedWebSocket.EnsureBufferContainsAsync(Int32 minimumRequiredBytes, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TResult](Memory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.ReceiveAsyncPrivate[TResult](Memory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Threading.Tasks.ValueTask`1.ValueTaskSourceAsTask.<>c.<.cctor>b__4_0(Object state)
+--- End of stack trace from previous location ---
+   at WebSocketMiddleware.ReceiveMessagesAsync(WebSocket socket) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\WebSocketHandlerMiddleware.cs:line 51
+   at WebSocketMiddleware.InvokeAsync(HttpContext context) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\WebSocketHandlerMiddleware.cs:line 33
+   at IPFilterMiddleware.InvokeAsync(HttpContext context) in D:\Test\ServerMonitor\WebAPI\WebAPI\Middleware\IPFilterMiddleware.cs:line 54
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+
+2025-01-13 17:11:07.553 +07:00 INF IP ::1 is whitelisted. Skipping authentication.
+2025-01-13 17:11:07.810 +07:00 INF IP: ::1. Request: API: /api/test, Status Code: 200, Response Time: 259 ms

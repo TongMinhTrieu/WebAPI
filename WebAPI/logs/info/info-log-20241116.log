@@ -1,0 +1,10 @@
+2024-11-16 11:07:43.775 +07:00  INF  Request from IP: ::1
+2024-11-16 11:07:43.789 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-11-16 11:07:43.861 +07:00  INF  API: /api/test, Status Code: 200, Response Time: 13 ms
+2024-11-16 11:07:48.874 +07:00  INF  Request from IP: ::1
+2024-11-16 11:07:48.874 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-11-16 11:07:48.881 +07:00  INF  API: /api/test/admin-only, Status Code: 200, Response Time: 1 ms
+2024-11-16 11:07:57.706 +07:00  INF  Request from IP: ::1
+2024-11-16 11:07:57.706 +07:00  INF  IP ::1 is whitelisted. Skipping authentication.
+2024-11-16 11:07:57.790 +07:00  INF  Fetching data from database.
+2024-11-16 11:07:58.289 +07:00  INF  API: /api/Movies, Status Code: 200, Response Time: 578 ms
